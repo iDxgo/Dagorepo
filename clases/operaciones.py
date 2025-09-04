@@ -40,6 +40,9 @@ class Operaciones:
             self.resultado = "No se puede dividir por cero"
         else:
             self.resultado = "El módulo de " + str(self.num1) + " % " + str(self.num2) + " es igula a " + str(self.num1 % self.num2)
+    
+    def potencia(self):
+        self.resultado = "La potencia de " + str(self.num1) + " ** " + str(self.num2) + " es igula a " + str(self.num1 ** self.num2)
     def mostrarResultado(self):
         print(self.resultado)
         
